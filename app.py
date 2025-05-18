@@ -5,6 +5,9 @@ import nltk
 from nltk.corpus import words
 import re
 import base64  # Add this import
+import nltk
+nltk.download('words', quiet=True)
+
 
 # Download word list if not already present
 nltk.download('words')
